@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
+  height: 100%;
+  padding-bottom: 70px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -8,7 +10,6 @@ body {
   font-size: 20px;
   font-weight: 600;
   padding: 20px;
-  padding-right: 215px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -16,13 +17,59 @@ body {
   padding-right: 30px;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
   color: lightseagreen;
 }
 
-.imgage1 {
+.image1 {
   max-width: 100%;
   height: auto;
-  padding: 100px;
+  margin-bottom: 20px;
+}
+
+.row1 {
+  padding-top: 115px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.p1 {
+  font-weight: 500;
+}
+
+.btn-linkedin {
+  background: #0E76A8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+}
+
+.btn-linkedin:active, .btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}
+
+.footer1 {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.p2 {
+  color: #fff;
 }
