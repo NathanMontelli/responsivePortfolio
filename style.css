@@ -24,7 +24,8 @@ body {
 .image1 {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .row1 {
@@ -81,6 +82,7 @@ h5 {
   color: #fff;
 }
 
+/* contact CSS */
 .row2 {
   padding-top: 150px;
   text-align: center;
@@ -93,9 +95,35 @@ h5 {
 
 .footerContact {
   position: absolute;
+  /* padding-bottom: 50px; */
 }
 
+/* portfolio CSS */
 .form-control {
   margin: auto;
   width: 50%;
 }
+
+.container3 {
+  padding-top: 100px;
+}
+
+.card-body {
+  margin: 15px;
+}
+
+.card {
+  margin: 15px;
+}
+
+.footerPort{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  
+}
+
+/* .fixed-bottom {
+  position: fixed-bottom;
+  position: relative;
+} */
