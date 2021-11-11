@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   height: 100%;
-  /* padding-bottom: 70px; */
+  padding-bottom: 0px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -68,7 +68,7 @@ h5 {
   position: relative;
   width: 100%;
   bottom: 0;
-  padding-top: 20vh;
+  height: 30px;
 }
 
 /* footer {
@@ -79,4 +79,23 @@ h5 {
 
 .p2 {
   color: #fff;
+}
+
+.row2 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.contacth2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.footerContact {
+  position: absolute;
+}
+
+.form-control {
+  margin: auto;
+  width: 50%;
 }
